@@ -1,14 +1,22 @@
-# Anomaly_detection_with_PCA
+# Anomaly detection of faulty sensors in a network using PCA 
 
 
-This repo is to develop a fault detection system for a sensors network measuring air pollutants and to localize on line the faulty sensor. 
+This repo is to develop a fault detection system for a sensor network measuring air pollutants and to localize online the faulty sensor. The technique applied here is based on the machine learning tool of principal component analysis, which enables localization and detection of faulty sensors based on available data collected from 6 locations around the city of Nancy, France.
+ ## Table of Content
+ * Data Description
+ * Tools used in the project
 
-## Database
+##  Data Description
+The dataset for this project is 2 CSV files:
 
-Load the file named training.csv. It contains two matrices X1 and X2.
-Each matrix contains pollutant concentrations (ozone, nitrogen oxide, and carbon dioxide) measured in 6 locations around the town of Nancy. Measurements are collected every 15 minutes. The matrix is formed by 18 rows, the first 3 rows correspond to measurements of ozone, nitrogen oxide, and carbon dioxide in the first location, the 3 following rows to the measurements in the second location, and so on.
-X(i,:) represents the measurement of the ith sensor in the function of time.
-X(:,i) represents the set of measurements from the 18 sensors at a given time.
-X1 corresponds to a recording when no fault occurred on the system. X2 corresponds to a recording when a fault occurred on a sensor.
 
+
+The dataset is in 2 CSV files in the folder Data, # 1. training.csv  and
+
+# 2. validation.csv,
+ each consisting of 18 rows. From the 6 locations, the first 3 rows correspond to measurements of ozone, nitrogen oxide, and carbon dioxide of the first location, repeated subsequently for the other locations
+
+## Tools used in the project
+
+The project was programmed in python language
 
