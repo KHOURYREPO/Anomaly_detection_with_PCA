@@ -11,12 +11,10 @@ The dataset for this project is 2 CSV files:
 
 
 
-The dataset is in 2 CSV files in the folder Data, # 1. training.csv  and
-
-# 2. validation.csv,
+The dataset is in 2 CSV files in the folder Data, # 1. training.csv  and # 2. validation.csv,
  each consisting of 18 rows. From the 6 locations, the first 3 rows correspond to measurements of ozone, nitrogen oxide, and carbon dioxide of the first location, repeated subsequently for the other locations
 
 ## Tools used in the project
 
-The project was programmed in python language
+The project was programmed in Python language
 
